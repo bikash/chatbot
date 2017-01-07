@@ -46,3 +46,4 @@ python ui/app.py
 # open up the address in browser, chat with the bot
 ```
 
+![img](img/6jRMYYl.gif)
