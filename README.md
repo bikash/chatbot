@@ -18,6 +18,6 @@ Image borrowed from Deep Learning for Chatbots : Part 1
 There are a few challenges in using this model. The most disturbing one is that the model cannot handle variable length sequences. It is disturbing because almost all the sequence-to-sequence applications, involve variable length sequences. The next one is the vocabulary size. The decoder has to run softmax over a large vocabulary of say 20,000 words, for each word in the output. That is going to slow down the training process, even if your hardware is capable of handling it. Representation of words is of great importance. How do you represent the words in the sequence? Use of one-hot vectors means we need to deal with large sparse vectors due to large vocabulary and there is no semantic meaning to words encoded into one-hot vectors. Lets look into how we can face these challenges, one by one.
 
 #Demo
-<img src="img/6jRMYYl.gif" data-canonical-src="img/6jRMYYl.gif" width="500" height="400" />
+<img src="img/6jRMYYl.gif" data-canonical-src="img/6jRMYYl.gif" width="500" height="700" />
 
 ![img](img/6jRMYYl.gif)
